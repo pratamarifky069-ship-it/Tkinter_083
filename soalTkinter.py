@@ -29,4 +29,28 @@ frame.pack(padx=15)
 # Menyimpan input nilai
 inputs = []
 
+# Membuat 10 input nilai mata pelajaran
+for i in range(10):
+    label = tk.Label(
+        frame,
+        text=f"Nilai Mata Pelajaran {i + 1}:",
+        font=("Arial", 10, "bold"),
+        bg=biru,
+        fg=putih,
+        width=21,
+        anchor="e"
+    )
+    label.grid(row=i, column=0, padx=5, pady=5)
+
+    entry = tk.Entry(
+        frame,
+        width=15,
+        bg=biru_muda,
+        fg=putih,
+        insertbackground=putih
+    )
+    entry.grid(row=i, column=1, padx=5, pady=5)
+
+    inputs.append(entry)
+
 
