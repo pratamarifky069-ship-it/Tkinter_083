@@ -55,4 +55,10 @@ for i in range(10):
 
 # Fungsi hasil prediksi
 def hasil_prediksi():
+    # Membuat jendela hasil
+    jendela_hasil = tk.Toplevel(root)
+    jendela_hasil.title("Hasil Prediksi")
+    jendela_hasil.geometry("400x150")
+    jendela_hasil.configure(bg=biru)
+
 
