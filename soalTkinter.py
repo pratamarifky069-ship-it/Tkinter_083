@@ -12,4 +12,14 @@ biru = "navy"
 biru_muda = "steelblue"
 putih = "white"
 
+# Label judul aplikasi
+judul = tk.Label(
+    root,
+    text="Aplikasi Prediksi Prodi Pilihan",
+    font=("Arial", 15, "bold"),
+    bg=biru,
+    fg=putih
+)
+judul.pack(pady=20)
+
 
