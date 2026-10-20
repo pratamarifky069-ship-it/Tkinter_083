@@ -26,3 +26,7 @@ judul.pack(pady=20)
 frame = tk.Frame(root, bg=biru)
 frame.pack(padx=15)
 
+# Menyimpan input nilai
+inputs = []
+
+
