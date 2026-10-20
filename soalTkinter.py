@@ -53,4 +53,6 @@ for i in range(10):
 
     inputs.append(entry)
 
+# Fungsi hasil prediksi
+def hasil_prediksi():
 
