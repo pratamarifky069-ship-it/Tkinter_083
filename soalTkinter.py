@@ -82,4 +82,5 @@ button = tk.Button(
 )
 button.pack(pady=25)
 
-
+# Menjalankan aplikasi
+root.mainloop()
