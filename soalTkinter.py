@@ -61,4 +61,14 @@ def hasil_prediksi():
     jendela_hasil.geometry("400x150")
     jendela_hasil.configure(bg=biru)
 
+    # Label hasil prediksi
+    hasil = tk.Label(
+        jendela_hasil,
+        text="Prediksi Prodi: Teknologi Informasi",
+        font=("Arial", 14, "bold"),
+        bg=biru,
+        fg="cyan"
+    )
+    hasil.pack(expand=True)
+
 
